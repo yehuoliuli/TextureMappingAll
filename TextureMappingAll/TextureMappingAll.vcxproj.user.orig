@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QTDIR>D:\dev\qt-everywhere-opensource-src-4.8.4\qt-everywhere-opensource-src-4.8.4</QTDIR>
+    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3bL:\bins\x64%3b$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments>"C:\Users\2\Documents\Tencent Files\2481699128\FileRecv\act"  dw12.act  --Step 1 --SmoothNrmR 5 --HandledVarNum 100000000</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QTDIR>D:\dev\qt-everywhere-opensource-src-4.8.4\qt-everywhere-opensource-src-4.8.4</QTDIR>
+    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3bL:\bins\x64%3b$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+    <LocalDebuggerCommandArguments>E:\Data\chinagraph\00900\00900 seq_cam_tracking.act --MaxDR 0.03 --MinDR 0.005 --DTol 0.05 --Step 10 --SmoothNrmR 5 --WithUv 0 --HighResolution 0 --CFNum 5</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>E:\DATA\chinagraph\00898\00898 seq_cam_tracking.act --MaxDR 0.005 --MinDR 0.0025 --DTol 0.1 --Step 10 --SmoothNrmR 10 --WithUv 0 --HighResolution 0 --CFNum 10</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <QTDIR>D:\BoShengWang\software2\Qt\4.8.4</QTDIR>
+    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>E:\DATA\chinagraph\00898\00898 seq_cam_tracking.act --MaxDR 0.005 --MinDR 0.0025 --DTol 0.1 --Step 10 --SmoothNrmR 10 --WithUv 0 --HighResolution 0 --CFNum 10</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <QTDIR>D:\BoShengWang\software2\Qt\4.8.4</QTDIR>
+    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+</Project>
