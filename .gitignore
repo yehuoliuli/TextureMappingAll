@@ -229,13 +229,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# add by BoShengWang
-.hg/
-TextureMappingAll/cuda50/
-*.dll
-TextureMappingAll/cuda库.zip
-TextureMappingAll/cao.txt
-TextureMappingAll/faces.txt
-.hgignore
-*.png
