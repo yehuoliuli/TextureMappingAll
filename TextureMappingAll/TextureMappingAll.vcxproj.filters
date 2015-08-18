@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="TextureMapping">
+      <UniqueIdentifier>{2b2e5bb5-966f-46ac-bc8d-93d7b2fd505f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureMapping\Model2Depth">
+      <UniqueIdentifier>{fb3ecfb0-cd2d-4ed3-b089-ab931607f8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{882095d3-b532-4d7d-94b6-d5ef112f3d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inpainting">
+      <UniqueIdentifier>{42adecdd-d2e6-4913-86b3-8f1a8a4ee395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PoissonFusion">
+      <UniqueIdentifier>{e06ceb8e-32fd-48f5-a914-97e525d74c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\GCO">
+      <UniqueIdentifier>{a6c89b49-5680-4f09-ae17-33f1f10986af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{65b042de-65fc-421d-b054-01e455205cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Others\Generated Files\Debug">
+      <UniqueIdentifier>{da28a145-d966-48ce-aaa9-eb3539d30f7f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Others\Generated Files\Release">
+      <UniqueIdentifier>{20051d2d-1387-4f7f-877e-1d7821805ab2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Others\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Others\Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Public\ObjInterface">
+      <UniqueIdentifier>{7f1dc053-3037-42ca-8219-3cb59a4f2104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PoissonFusion\GPUConjugateGradient">
+      <UniqueIdentifier>{d6306ff4-fe4a-48ff-ae89-ce61c506b475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package">
+      <UniqueIdentifier>{e71d1945-d0e9-46b7-b138-4a7314591a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\ActsParser">
+      <UniqueIdentifier>{734d161d-3ea0-42f3-b176-b9ea18d2e7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlurMetric">
+      <UniqueIdentifier>{80d307f1-4b33-4a2f-b99c-46ffc754adea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCAP">
+      <UniqueIdentifier>{d803d63a-a92a-4020-8ea9-60e8bfb11ba7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texturemappingall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_texturemappingall.cpp">
+      <Filter>Others\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_texturemappingall.cpp">
+      <Filter>Others\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_texturemappingall.cpp">
+      <Filter>Others\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCO\GCoptimization.cpp">
+      <Filter>Public\GCO</Filter>
+    </ClCompile>
+    <ClCompile Include="GCO\graph.cpp">
+      <Filter>Public\GCO</Filter>
+    </ClCompile>
+    <ClCompile Include="GCO\LinkedBlockList.cpp">
+      <Filter>Public\GCO</Filter>
+    </ClCompile>
+    <ClCompile Include="GCO\maxflow.cpp">
+      <Filter>Public\GCO</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Wang_Utility\ObjInterface.cpp">
+      <Filter>Public\ObjInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ImproveTM.cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="main (2).cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_mapping.cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Model2Depth.cpp">
+      <Filter>TextureMapping\Model2Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Wang_Utility\WangOpengl_helper.cpp">
+      <Filter>TextureMapping\Model2Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureInpainting.cpp">
+      <Filter>Inpainting</Filter>
+    </ClCompile>
+    <ClCompile Include="wang_poissonfusion.cpp">
+      <Filter>PoissonFusion</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadLibs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Wang_Utility\conjugateGradientPrecondv1.cpp">
+      <Filter>PoissonFusion\GPUConjugateGradient</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePackage.cpp">
+      <Filter>Package</Filter>
+    </ClCompile>
+    <ClCompile Include="main (3).cpp">
+      <Filter>Package</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Wang_Utility\PackPatches.cpp">
+      <Filter>Package</Filter>
+    </ClCompile>
+    <ClCompile Include="PoissonFusionv1.cpp">
+      <Filter>PoissonFusion</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\ActsParserUtility.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\cameraframe.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\CameraMotion.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\Error_Estimation.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\FeatureMatch.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\FileParser.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\Keypoint.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\magicMathUtil.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\matchlinker.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\StructureMotion.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\trackfileparser.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\TrackPublic.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\NewActsParser\VideoFrame.cpp">
+      <Filter>Public\ActsParser</Filter>
+    </ClCompile>
+    <ClCompile Include="wang_simplecompletion.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="wang_Create_newtexture.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Wang_Utility\BlurMetric.cpp">
+      <Filter>BlurMetric</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMappingParser.cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_texturemappingall.h">
+      <Filter>Others\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCO\block.h">
+      <Filter>Public\GCO</Filter>
+    </ClInclude>
+    <ClInclude Include="GCO\energy.h">
+      <Filter>Public\GCO</Filter>
+    </ClInclude>
+    <ClInclude Include="GCO\GCoptimization.h">
+      <Filter>Public\GCO</Filter>
+    </ClInclude>
+    <ClInclude Include="GCO\graph.h">
+      <Filter>Public\GCO</Filter>
+    </ClInclude>
+    <ClInclude Include="GCO\LinkedBlockList.h">
+      <Filter>Public\GCO</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Wang_Utility\ObjInterface.h">
+      <Filter>Public\ObjInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ImproveTM.h">
+      <Filter>TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_mapping.h">
+      <Filter>TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Model2Depth.h">
+      <Filter>TextureMapping\Model2Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Wang_Utility\WangOpengl_helper.h">
+      <Filter>TextureMapping\Model2Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInpainting.h">
+      <Filter>Inpainting</Filter>
+    </ClInclude>
+    <ClInclude Include="wang_poissonfusion.h">
+      <Filter>PoissonFusion</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Wang_Utility\conjugateGradientPrecondv1.h">
+      <Filter>PoissonFusion\GPUConjugateGradient</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturePackage.h">
+      <Filter>Package</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Wang_Utility\PackPatches.h">
+      <Filter>Package</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\ActsParserUtility.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\CameraFrame.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\CameraMotion.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\Error_Estimation.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\FeatureMatch.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\FileParser.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\ImageArray.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\keypoint.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\magicmathutil.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\MatchLinker.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\StructureMotion.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\TrackFileParser.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\TrackPublic.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\VideoFrame.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\NewActsParser\ZImage.h">
+      <Filter>Public\ActsParser</Filter>
+    </ClInclude>
+    <ClInclude Include="wang_Create_newtexture.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="wang_simplecompletion.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Wang_Utility\BlurMetric.h">
+      <Filter>BlurMetric</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMappingParser.h">
+      <Filter>TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\Arg.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\ArgException.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\ArgTraits.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\CmdLine.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\CmdLineInterface.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\CmdLineOutput.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\Constraint.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\DocBookOutput.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\HelpVisitor.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\IgnoreRestVisitor.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\MultiArg.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\MultiSwitchArg.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\OptionalUnlabeledTracker.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\StandardTraits.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\StdOutput.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\SwitchArg.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\UnlabeledMultiArg.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\UnlabeledValueArg.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\ValueArg.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\ValuesConstraint.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\VersionVisitor.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\Visitor.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\XorHandler.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\tclap-1.2.1\include\tclap\ZshCompletionOutput.h">
+      <Filter>TCAP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="texturemappingall.ui">
+      <Filter>Others\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="texturemappingall.qrc">
+      <Filter>Others\Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="texturemappingall.h">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GCO\GCO_README.TXT">
+      <Filter>Public\GCO</Filter>
+    </None>
+    <None Include="L:\NewActsParser\imagearray.inl">
+      <Filter>Public\ActsParser</Filter>
+    </None>
+    <None Include="L:\NewActsParser\t.txt">
+      <Filter>Public\ActsParser</Filter>
+    </None>
+    <None Include="debug.txt" />
+    <None Include="L:\tclap-1.2.1\include\tclap\Makefile.am">
+      <Filter>TCAP</Filter>
+    </None>
+    <None Include="L:\tclap-1.2.1\include\tclap\Makefile.in">
+      <Filter>TCAP</Filter>
+    </None>
+  </ItemGroup>
+</Project>

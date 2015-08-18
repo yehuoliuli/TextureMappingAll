@@ -1,0 +1,2 @@
+
+Smooth cost term was larger than GCO_MAX_ENERGYTERM; danger of integer overflow.
